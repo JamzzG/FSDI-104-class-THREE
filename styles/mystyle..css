@@ -1,0 +1,8 @@
+input, select{
+    margin-bottom:1rem;
+    max-width: 30rem;
+}
+
+.error {
+    border: 1px solid red;
+}
