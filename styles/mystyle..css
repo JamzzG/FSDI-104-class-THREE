@@ -1,8 +1,159 @@
+@media screen and (max-width: 69.9999rem){
+    main{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .nav-link{
+        margin-right: 1rem;
+        margin-left: 1rem;
+    }
+    
+}
+@media screen and (min-width: 70rem) {
+    
+    main{
+        display: flex;
+        margin-left: auto;
+        margin-right: auto;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .nav-link{
+        margin-right: 5rem;
+        margin-left: 5rem;
+    }
+
+
+
+
+}
+
+input, select{
+    width: fit-content;
+}
+
+.form-select .services{
+    font-size: x-large; 
+}
+
+h1{
+    font-size: 5rem;
+}
+
+h1, h3{
+    background-image: radial-gradient(rgba(255, 105, 180, 0.495),rgba(255, 182, 193, 0.05));
+    color: whitesmoke;
+}
+
+.input-title{
+    max-width: 30rem;
+}
+
+.title {
+    font-size: 64px;
+}
+
+.nav-link{
+    color: hotpink;
+    font-size: large;
+    text-shadow: 1px 1px 2px black;
+    }
+
+.nav{
+    justify-content: center;
+}
+h1,h2,h3{
+    color:aliceblue;
+    text-shadow: .3px .3px 8px rgb(240, 45, 143);
+    }
+
+body{
+    background-color: lightpink;
+    text-align: center;
+}
+
+.container {
+    width:30rem;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+}
+
+.btn {
+    max-width: 30rem;
+    text-transform: uppercase;;
+    letter-spacing: 3px;
+    font-weight: 900;
+    color: white;
+    background-color: rgb(242, 151, 196);
+    border-image: conic-gradient(hotpink, white, hotpink, hotpink,white,hotpink) 1;
+    border-style: solid;
+    border-width: 4px;
+    }
+
+    .btn.hover{
+        border-image: conic-gradient(cyan, white, cyan, cyan,white,cyan) 1;
+    border-style: solid;
+    border-width: 4px;
+    }
+    
+    .pet{
+    width:16rem;
+    text-align: left;
+    margin-right: 3rem;
+    padding-left:1rem;
+    padding-right: 1rem;
+}
+
+.card{
+    padding-top: 1rem;
+    margin:1rem;
+}
+
+.pets{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
 input, select{
     margin-bottom:1rem;
     max-width: 30rem;
 }
 
-.error {
-    border: 1px solid red;
+h4{
+    font-size: 2rem;
+    color: hotpink;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.512);
 }
+
+h5 {
+    font-size: 1rem;
+}
+
+.error {
+    border: 4px solid red;
+}
+
+.flex-pic{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+    }
+
+img{
+    width:44rem;
+    margin-bottom: 1rem;
+    border-radius: 12%;
+    margin:auto;
+    }
+
+
